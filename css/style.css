@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: 30px auto;
+    
+}
+
+.row::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+header{
+    background-color: violet;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.senape{
+    background-color: rgb(245, 226, 121);
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+main{
+    float:left;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(36, 111, 233);
+}
+
+.bar-content{
+    background-color: rgb(141, 192, 250);
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.main{
+    background-color: rgb(141, 192, 250);
+    height: 725px;
+    float: left;
+}
+
+.margins{
+    width: 250px;   
+}
+
+.middle{
+    width: 680px;
+    margin: 0 10px;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: purple;
+    height: 50px;
+}
